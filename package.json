@@ -3,13 +3,11 @@
   "version": "1.0.0",
   "description": "Todo description",
   "main": "index.js",
-
-  "build" : {
-    "win" : {
-      "target" : "portable"
-
+  "build": {
+    "win": {
+      "target": "portable"
     }
-  }, 
+  },
   "scripts": {
     "electron": "electron .",
     "pack": "electron-builder --dir",
@@ -17,6 +15,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "electron-builder": "^22.8.0"
   }
 }
