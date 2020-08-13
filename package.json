@@ -1,14 +1,22 @@
 {
   "name": "todos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Todo description",
   "main": "index.js",
+
+  "build" : {
+    "win" : {
+      "target" : "portable"
+
+    }
+  }, 
   "scripts": {
-    "electron" : "electron ."
+    "electron": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "electron": "^9.2.0"
   }
 }
