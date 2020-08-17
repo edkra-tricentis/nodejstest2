@@ -10,9 +10,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-variables:
-  GH_TOKEN: '$(GH_TOKEN)'
-
 steps:
 
 - task: PowerShell@2
